@@ -1,0 +1,15 @@
+# Direct runtime imports, pinned to the environment used for differential tests.
+# Install the matching PyTorch / PyG binary wheels first (README).
+torch==1.13.0
+torchdrug==0.2.1
+torch-geometric==2.6.1
+torch-scatter==2.1.1
+torch-cluster==1.6.1
+numpy==1.21.6
+scipy==1.10.1
+scikit-learn==1.2.2
+pandas==2.0.2
+matplotlib==3.7.1
+tqdm==4.67.1
+ninja==1.11.1
+

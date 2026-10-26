@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flexmec"
+version = "0.3.0"
+description = "Flexibility-conditioned metric-energy coupling for antigen-antibody prediction"
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+py-modules = []
+
+[tool.setuptools.packages.find]
+include = ["flexmec*"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}

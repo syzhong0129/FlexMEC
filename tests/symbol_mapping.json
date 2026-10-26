@@ -1,0 +1,472 @@
+[
+  {
+    "source": "model.py",
+    "symbol": "_get_fail_log_path",
+    "line": 30,
+    "end": 32,
+    "destination": "flexmec/models/settings.py"
+  },
+  {
+    "source": "model.py",
+    "symbol": "_env_flag",
+    "line": 35,
+    "end": 39,
+    "destination": "flexmec/models/settings.py"
+  },
+  {
+    "source": "model.py",
+    "symbol": "_env_float",
+    "line": 42,
+    "end": 48,
+    "destination": "flexmec/models/settings.py"
+  },
+  {
+    "source": "model.py",
+    "symbol": "_env_int",
+    "line": 51,
+    "end": 57,
+    "destination": "flexmec/models/settings.py"
+  },
+  {
+    "source": "model.py",
+    "symbol": "EarlyCDRFeatureGate",
+    "line": 60,
+    "end": 242,
+    "destination": "flexmec/models/flexmetric.py"
+  },
+  {
+    "source": "model.py",
+    "symbol": "FlexPairAttnBias",
+    "line": 246,
+    "end": 304,
+    "destination": "flexmec/models/flexenergy.py"
+  },
+  {
+    "source": "model.py",
+    "symbol": "ChannelLayerNorm",
+    "line": 307,
+    "end": 316,
+    "destination": "flexmec/models/normalization.py"
+  },
+  {
+    "source": "model.py",
+    "symbol": "MIPE",
+    "line": 319,
+    "end": 984,
+    "destination": "flexmec/models/network.py",
+    "destination_symbol": "FlexMEC"
+  },
+  {
+    "source": "CrossAttention.py",
+    "symbol": "CrossAttention",
+    "line": 47,
+    "end": 153,
+    "destination": "flexmec/models/attention.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "get_split_group_id",
+    "line": 67,
+    "end": 85,
+    "destination": "flexmec/data/splits.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "get_split_group_set",
+    "line": 88,
+    "end": 92,
+    "destination": "flexmec/data/splits.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "assert_group_disjoint",
+    "line": 95,
+    "end": 102,
+    "destination": "flexmec/data/splits.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "_build_group_folds",
+    "line": 105,
+    "end": 143,
+    "destination": "flexmec/data/splits.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "split_train_test_data",
+    "line": 146,
+    "end": 190,
+    "destination": "flexmec/data/splits.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "get_val_fixed_data",
+    "line": 193,
+    "end": 208,
+    "destination": "flexmec/data/splits.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "_normalize_pdb_id",
+    "line": 211,
+    "end": 215,
+    "destination": "flexmec/data/splits.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "_get_sample_pdb_id",
+    "line": 218,
+    "end": 225,
+    "destination": "flexmec/data/splits.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "_read_pdb_id_split_csv",
+    "line": 228,
+    "end": 258,
+    "destination": "flexmec/data/splits.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "get_k_fold_data_from_pdb_id_csv",
+    "line": 261,
+    "end": 349,
+    "destination": "flexmec/data/splits.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "get_k_fold_data",
+    "line": 392,
+    "end": 448,
+    "destination": "flexmec/data/splits.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "dis_pairs",
+    "line": 533,
+    "end": 542,
+    "destination": "flexmec/data/graph.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "dis_pairs_safe",
+    "line": 545,
+    "end": 553,
+    "destination": "flexmec/data/graph.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "index_mink",
+    "line": 556,
+    "end": 563,
+    "destination": "flexmec/data/graph.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "CreateGearnetGraph",
+    "line": 565,
+    "end": 633,
+    "destination": "flexmec/data/graph.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "CreateKnearestEdge",
+    "line": 636,
+    "end": 665,
+    "destination": "flexmec/data/graph.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "evalution_prot",
+    "line": 475,
+    "end": 523,
+    "destination": "flexmec/data/metrics.py"
+  },
+  {
+    "source": "utils.py",
+    "symbol": "consine_inter",
+    "line": 525,
+    "end": 530,
+    "destination": "flexmec/data/metrics.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "try_read_pkl",
+    "line": 52,
+    "end": 82,
+    "destination": "flexmec/data/io.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "to_conv1d_plm_tensor",
+    "line": 285,
+    "end": 297,
+    "destination": "flexmec/data/samples.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "get_ag_esm_tensor",
+    "line": 300,
+    "end": 304,
+    "destination": "flexmec/data/samples.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "get_ab_esm_tensor",
+    "line": 307,
+    "end": 311,
+    "destination": "flexmec/data/samples.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "get_cdr_spans",
+    "line": 315,
+    "end": 321,
+    "destination": "flexmec/data/samples.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "get_flex_array",
+    "line": 324,
+    "end": 333,
+    "destination": "flexmec/data/samples.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "get_flex_target",
+    "line": 336,
+    "end": 340,
+    "destination": "flexmec/data/samples.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "rank_normalize_tensor_01",
+    "line": 343,
+    "end": 358,
+    "destination": "flexmec/data/samples.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "maybe_zscore_patch_matrix",
+    "line": 361,
+    "end": 366,
+    "destination": "flexmec/data/samples.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "get_sample_id",
+    "line": 666,
+    "end": 667,
+    "destination": "flexmec/data/samples.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "ensure_ab_node_dim",
+    "line": 670,
+    "end": 676,
+    "destination": "flexmec/data/samples.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "_as_float_tensor",
+    "line": 718,
+    "end": 719,
+    "destination": "flexmec/data/samples.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "_as_long_tensor",
+    "line": 722,
+    "end": 723,
+    "destination": "flexmec/data/samples.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "build_edge_label_tensor",
+    "line": 726,
+    "end": 734,
+    "destination": "flexmec/data/samples.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "prepare_sample_cache",
+    "line": 737,
+    "end": 783,
+    "destination": "flexmec/data/samples.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "resolve_cached_sample",
+    "line": 786,
+    "end": 798,
+    "destination": "flexmec/data/samples.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "edge_bce_with_neg_sampling",
+    "line": 369,
+    "end": 386,
+    "destination": "flexmec/engine/losses.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "binary_focal_loss_from_probs",
+    "line": 389,
+    "end": 395,
+    "destination": "flexmec/engine/losses.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "_mask_ambiguous_labels",
+    "line": 398,
+    "end": 413,
+    "destination": "flexmec/engine/losses.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "smooth_labels",
+    "line": 416,
+    "end": 425,
+    "destination": "flexmec/engine/losses.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "compute_ag_node_loss",
+    "line": 428,
+    "end": 451,
+    "destination": "flexmec/engine/losses.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "compute_ab_node_loss",
+    "line": 454,
+    "end": 475,
+    "destination": "flexmec/engine/losses.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "compute_flex_loss",
+    "line": 478,
+    "end": 485,
+    "destination": "flexmec/engine/losses.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "compute_gate_preference_loss",
+    "line": 488,
+    "end": 524,
+    "destination": "flexmec/engine/losses.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "compute_alpha_feature_attribution_loss",
+    "line": 527,
+    "end": 589,
+    "destination": "flexmec/engine/losses.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "gate_pref_weight_for_epoch",
+    "line": 592,
+    "end": 598,
+    "destination": "flexmec/engine/schedules.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "alpha_attr_weight_for_epoch",
+    "line": 601,
+    "end": 607,
+    "destination": "flexmec/engine/schedules.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "flex_drive_neutral_ratio_for_epoch",
+    "line": 610,
+    "end": 623,
+    "destination": "flexmec/engine/schedules.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "get_gate_endpoint_gaps",
+    "line": 626,
+    "end": 639,
+    "destination": "flexmec/engine/schedules.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "get_flex_pair_bias_stats",
+    "line": 642,
+    "end": 659,
+    "destination": "flexmec/engine/schedules.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "parse_run_folds",
+    "line": 662,
+    "end": 663,
+    "destination": "flexmec/engine/schedules.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "safe_evalution_prot",
+    "line": 679,
+    "end": 684,
+    "destination": "flexmec/engine/evaluation.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "compute_composite_score",
+    "line": 687,
+    "end": 699,
+    "destination": "flexmec/engine/evaluation.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "compute_auc_mean_score",
+    "line": 702,
+    "end": 707,
+    "destination": "flexmec/engine/evaluation.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "compute_mcc_mean_score",
+    "line": 710,
+    "end": 715,
+    "destination": "flexmec/engine/evaluation.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "evaluate_on_test_data",
+    "line": 801,
+    "end": 909,
+    "destination": "flexmec/engine/evaluation.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "_set_env_default",
+    "line": 13,
+    "end": 15,
+    "destination": "flexmec/configs/runtime.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "_apply_builtin_run_config",
+    "line": 18,
+    "end": 35,
+    "destination": "flexmec/configs/runtime.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "_resolve_test_data_file_path",
+    "line": 150,
+    "end": 158,
+    "destination": "flexmec/configs/runtime.py"
+  },
+  {
+    "source": "main.py",
+    "symbol": "_env_flag",
+    "line": 170,
+    "end": 174,
+    "destination": "flexmec/configs/runtime.py"
+  }
+]
